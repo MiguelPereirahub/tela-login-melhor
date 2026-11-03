@@ -24,17 +24,20 @@ body{
         background-color: var(--contrastes-e-links--);
 }
 h1{
-        font-family:Arial, Helvetica, sans-serif ;
+        font-family:-apple-system ,system-ui,BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ,Arial, Helvetica, sans-serif ;
         font-variant:small-caps;
         text-align: center;
+        text-shadow:3px 3px 3px #000;
 }
 p{
         font-family: Arial, Helvetica, sans-serif;
         margin: 6px;
+        text-indent: 20px;
         font-weight: bolder;
         color: var(--cor-texto--);
 }
 #login{
+        display: block;
         top:50%;
         left: 50%;
         transform: translate(-50%,-50%);
@@ -42,9 +45,12 @@ p{
         width:280px;
         height: 570px;
         background-color: white;
+        box-shadow:6px 6px 12px var(--cor-texto--);
         border-radius: 15px;
 }
 #imagem{
+        display: block;
+        background-color: #7E22CE;
         height: 200px;
         background-position: center  center;
         border-bottom-right-radius:none;
@@ -70,10 +76,21 @@ p{
         border-radius: 9px;
 }
 #senha,#email{
-        cursor:pointer;
+        cursor:text;
         width: 200px;
 }
+.esqueci:hover{
+        color: var(--cor-texto--);
+        background-color: var(--contrastes-e-links--);
+        transition: background-color 0.6s,color 0.6s;
+}
+.entrar:hover{
+        color: var(--cor-texto--);
+        background-color: var(--contrastes-e-links--);
+        transition: background-color 0.6s,color 0.6s;
+}
 .entrar{
+        cursor:pointer;
         font-size:19px;
         font-family: Arial, Helvetica, sans-serif;
         left: 50%;
