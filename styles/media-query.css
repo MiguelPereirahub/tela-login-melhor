@@ -1,1 +1,52 @@
 @charset "UTF-8";
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+            #input{
+                width: 469px;
+            }
+            #login{
+                height: 350px;
+                width:800px;
+            }
+            #senha{
+                width:429px;
+            }
+            #email{
+                width:429px;
+            }
+            .entrar{
+                width:480;
+            }
+            .esqueci{
+                width:260px;
+            }
+            #login > #imagem{
+                border-top-right-radius:0px;
+                border-bottom-left-radius:15px;
+                float:left;
+                width: 30%;
+                height: 100%;
+            }
+            #login > #form {
+                float:right;
+                width:65%;
+            }
+
+}
+@media screen and (min-width:992){
+            #login{
+                width: 990px;
+            }
+            #login > #imagem{
+                float:left;
+                width: 50%;
+                height: 100%;
+            }
+                        #login > #form {
+                float:right;
+                width:50%;
+            }
+
+
+}
