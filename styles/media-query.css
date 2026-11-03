@@ -16,7 +16,7 @@
                 width:429px;
             }
             .entrar{
-                width:480;
+                width:480px;
             }
             .esqueci{
                 width:260px;
@@ -34,7 +34,7 @@
             }
 
 }
-@media screen and (min-width:992){
+@media screen and (min-width:992px){
             #login{
                 width: 990px;
             }
