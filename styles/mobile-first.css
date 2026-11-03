@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*
+-----Paleta-----
+-------------------------------------------------------------------------------------
+• #A855F7 — Roxo Vibrante (perfeito para elementos principais e botões)
+• #7E22CE — Roxo Nobre (excelente para contrastes e links)
+• #581C87 — Roxo Profundo (bom para subtítulos ou elementos secundários escuros)
+• #3B0764 — Beringela Escuro (ideal para textos ou fundos escuros de alto contraste)
+*/
+:root{
+     --cor-texto--:#3B0764;  
+     --elementos-secundarios--:#581C87; 
+     --contrastes-e-links--:#7E22CE;
+     --elementos-principais-e-botoes--:#A855F7;
+
+
+}
+
+body,html{
+        margin: 0px;
+        padding:0px;
+}
+h1{
+        text-align: center;
+}
+p{
+        margin: 6px;
+        font-weight: bolder;
+        color: var(--cor-texto--);
+}
+#login{
+
+}
+#imagem{
+
+}
+#form{
+
+}
