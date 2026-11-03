@@ -20,19 +20,39 @@ body,html{
         margin: 0px;
         padding:0px;
 }
+body{
+        background-color: var(--contrastes-e-links--);
+}
 h1{
+        font-family:Arial, Helvetica, sans-serif ;
+        font-variant:small-caps;
         text-align: center;
 }
 p{
+        font-family: Arial, Helvetica, sans-serif;
         margin: 6px;
         font-weight: bolder;
         color: var(--cor-texto--);
 }
 #login{
-
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        width:60vw;
+        background-color: white;
+        border-radius: 15px;
 }
 #imagem{
-
+        display:;
+        height: 200px;
+        background-position: center  center;
+        border-bottom-right-radius:none;
+        border-bottom-left-radius: none;
+        border-top-right-radius:15px ;
+        border-top-left-radius:15px ;
+        background-size: cover;
+        background-image: url("../images/gimp-login-image.JPG");
 }
 #form{
 
