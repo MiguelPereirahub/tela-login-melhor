@@ -43,7 +43,7 @@ p{
         transform: translate(-50%,-50%);
         position: absolute;
         width:280px;
-        height: 570px;
+        height: 580px;
         background-color: white;
         box-shadow:6px 6px 12px var(--cor-texto--);
         border-radius: 15px;
