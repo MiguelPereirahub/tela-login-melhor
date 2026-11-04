@@ -31,7 +31,7 @@
                 width:390px;
             }
             .entrar{
-                width:460px;
+                width:480px;
             }
             .esqueci{
                 width: 450px;
@@ -55,6 +55,8 @@
                 background-image: linear-gradient(to top,#3B0764,#581C87,#7E22CE ,#A855F7);
             }
 
+}
+@media screen and (min-width:992px){
             #login{
                 transition-timing-function: ease;
                 transition: width 0.5s,height0.5s;
@@ -88,6 +90,9 @@
             #input{
                 width: 469px;
             }
+
         }
-    }
+    
+
+    
         
