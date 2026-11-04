@@ -31,10 +31,15 @@
                 width:390px;
             }
             .entrar{
-                width:480px;
+                width:440px;
             }
             .esqueci{
-                width: 450px;
+                width: 430px;
+            }
+            .posicionamento{
+                position: absolute;
+                left: 68%;
+                transform: translate(-68%);
             }
             #login > #imagem{
                 border-top-right-radius:0px;
@@ -48,19 +53,15 @@
                 width:65%;
             }
         }
-@media screen and (min-width:992px) {
+
+@media screen and (min-width:992px) and (max-width:1200px){
             body{
                 width: 100vw;
                 height: 100vh;
                 background-image: linear-gradient(to top,#3B0764,#581C87,#7E22CE ,#A855F7);
             }
-
-}
-@media screen and (min-width:992px){
             #login{
-                transition-timing-function: ease;
-                transition: width 0.5s,height0.5s;
-                height: 400px;
+                height: 340px;
                 width: 990px;
             }
             #login > #imagem{
@@ -80,6 +81,12 @@
             .esqueci{
                 width: 470px;
             }
+            .posicionamento{
+
+                position: absolute;
+                left: 75%;
+                transform: translate(-75%);
+            }
             
             #senha{
                 width:429px;
@@ -92,6 +99,59 @@
             }
 
         }
+@media screen and  (min-width:1200px) {
+            body{
+                width: 100vw;
+                height: 100vh;
+                background-image: linear-gradient(to top,#3B0764,#581C87,#7E22CE ,#A855F7);
+            }
+            #login{
+                transition-timing-function: ease;
+                transition: width 0.5s,height0.5s;
+                height: 340px;
+                width: 990px;
+            }
+            #login > #imagem{
+                transition-timing-function: ease;
+                transition: width 0.5s,height0.5s,float 0.5s;
+                border-top-right-radius: 15px;
+                border-bottom-left-radius: 0px;
+                border-top-left-radius: 0px;
+                border-bottom-right-radius: 15px;
+                float:right;
+                width: 50%;
+                height: 100%;
+            }
+            #login > #form {
+                float:left;
+                width:50%;
+            }
+            .entrar{
+                width:480px;
+            }
+            .esqueci{
+                width: 470px;
+            }
+            .posicionamento{
+                transition-timing-function: ease;
+                transition: width 0.5s,height0.5s;
+                position: absolute;
+                left: 25%;
+                transform: translate(-25%);
+            }
+            
+            #senha{
+                width:429px;
+            }
+            #email{
+                width:429px;
+            }
+            #input{
+                width: 469px;
+            }
+
+    
+}
     
 
     
