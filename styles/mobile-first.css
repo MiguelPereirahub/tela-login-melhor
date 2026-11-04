@@ -21,7 +21,7 @@ body,html{
         padding:0px;
 }
 body{
-        background-color: var(--contrastes-e-links--);
+        background-color: var(--cor-texto--);
 }
 h1{
         font-family:-apple-system ,system-ui,BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ,Arial, Helvetica, sans-serif ;

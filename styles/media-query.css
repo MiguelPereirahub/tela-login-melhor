@@ -1,25 +1,40 @@
 @charset "UTF-8";
 
 
+:root{
+     --cor-texto--:#3B0764;  
+     --elementos-secundarios--:#581C87; 
+     --contrastes-e-links--:#7E22CE;
+     --elementos-principais-e-botoes--:#A855F7;
+
+
+}
 @media screen and (min-width:768px) and (max-width:992px) {
+            body{
+                width: 100vw;
+                height: 100vh;
+                background-image: linear-gradient(to top,#3B0764,#581C87,#7E22CE ,#A855F7);
+            }
             #input{
-                width: 469px;
+                width: 430px;
             }
             #login{
+                transition-timing-function: ease;
+                transition: width 0.5s,height0.5s;
                 height: 350px;
-                width:800px;
+                width:700px;
             }
             #senha{
-                width:429px;
+                width:390px;
             }
             #email{
-                width:429px;
+                width:390px;
             }
             .entrar{
-                width:480;
+                width:460px;
             }
             .esqueci{
-                width:260px;
+                width: 450px;
             }
             #login > #imagem{
                 border-top-right-radius:0px;
@@ -32,21 +47,47 @@
                 float:right;
                 width:65%;
             }
+        }
+@media screen and (min-width:992px) {
+            body{
+                width: 100vw;
+                height: 100vh;
+                background-image: linear-gradient(to top,#3B0764,#581C87,#7E22CE ,#A855F7);
+            }
 
-}
-@media screen and (min-width:992){
             #login{
+                transition-timing-function: ease;
+                transition: width 0.5s,height0.5s;
+                height: 400px;
                 width: 990px;
             }
             #login > #imagem{
+                border-top-right-radius: 0px;
+                border-bottom-left-radius: 15px;
                 float:left;
                 width: 50%;
                 height: 100%;
             }
-                        #login > #form {
+            #login > #form {
                 float:right;
                 width:50%;
             }
-
-
-}
+            .entrar{
+                width:480px;
+            }
+            .esqueci{
+                width: 470px;
+            }
+            
+            #senha{
+                width:429px;
+            }
+            #email{
+                width:429px;
+            }
+            #input{
+                width: 469px;
+            }
+        }
+    }
+        
